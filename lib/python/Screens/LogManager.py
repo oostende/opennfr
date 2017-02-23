@@ -492,7 +492,7 @@ class LogManager(Screen):
 
 	def myclose(self):
 		self.close()
-
+"""
 class LogManagerViewLog(Screen):
 	def __init__(self, session, selected):
 		self.session = session
@@ -558,7 +558,7 @@ class LogManagerViewLog(Screen):
 
 	def cancel(self):
 		self.close()
-"""
+
 class LogManagerFb(Screen):
 	def __init__(self, session, logpath=None):
 		if logpath is None:
